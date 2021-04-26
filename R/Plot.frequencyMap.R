@@ -1,4 +1,7 @@
+#' plot.frequencyMap
+#'
 #' Method for generic plot function that visualize different kmer frequency
+#'
 #' @param frequencyMap An object with the frequencyMap class (a List)
 #' @return a ggplot bargraph of the different kmers and their frequency
 #' @examples plot(sampleFrequency)

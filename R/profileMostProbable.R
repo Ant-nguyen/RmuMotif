@@ -1,4 +1,7 @@
+#' profileMostProbable
+#'
 #' With a profile, calculate most probable kmer in a specific sequence(txt)
+#'
 #' @param txt A character string of a DNA sequence that one wants to know most probable kmer
 #' @param k A numeric value of the length of a kmer
 #' @param profile A matrix of a profile that will determine most probable kmer

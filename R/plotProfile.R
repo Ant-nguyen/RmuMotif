@@ -1,4 +1,7 @@
+#' plot.profile
+#'
 #' Method for generating sequence logo graphical representation for profile class objects.
+#'
 #' @param profile A profile class Matrix.
 #' @param prob A TRUE or FALSE argument. Default TRUE, will present visualization based on
 #' probability. If FALSE will present based on weight of each sequence.

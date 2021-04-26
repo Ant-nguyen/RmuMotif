@@ -1,4 +1,7 @@
+#' FrequencyMap
+#'
 #' Extract frequency of specific kmers (snippets of specific length) from a larger sequence.
+#'
 #' @param k An Integer representing length of kmer
 #' @param txt A character string of DNA sequence
 #' @return A List of frequency of kmers in txt sequence, Class of object is frequencyMap allowing

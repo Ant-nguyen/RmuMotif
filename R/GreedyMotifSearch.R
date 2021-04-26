@@ -1,11 +1,17 @@
+#' GreedyMotifSearch
+#'
 #' Given a series of DNA sequences this function will return the most probably motif in each sequence taking into account
 #' the other DNA sequences.This uses a 'Greedy" method that is very computationally simple allowing for quick fast results.
+#'
 #' @param DNAseqs A vector of character strings representing a series of DNA sequences
 #' @param k An integer Value representing how long of kmer ins interested
 #' @param t An integer value representing how many of the DNAseqs one wish to incorporate
 #' @param pseudo A TRUE or FALSE condition, default FALSE. If TRUE will implement pseudo counts which alleviates biases
 #' against some single point mutations
+#'
 #' @return A vector of best scoring Motifs
+#'
+#' @examples GreedyMotifSearch(sampleDNAseq,3,4)
 #' @export
 GreedyMotifSearch <- function(DNAseqs,k,t,pseudo=FALSE){
   BestMotifs <- c()

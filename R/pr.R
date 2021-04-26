@@ -1,4 +1,7 @@
+#' pr
+#'
 #' From a profile return the probability a DNA sequence fits from the profile
+#'
 #' @param txt A character string reprenting the DNA sequence in question.
 #' @param profile A matrix representing the probability of each nucleuotide in specific locations
 #' @return A number value of the probability of the txt sequence based on the profile matrix

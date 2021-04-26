@@ -1,4 +1,7 @@
+#' muCount
+#'
 #' A function that takes a series of motifs and return a count of each AGTC at each position.
+#'
 #' @param Motifs vector of motifs of interest
 #' @param pseudo TRUE or FALSE statement, if pseudo is true than will implement pseudo counts.
 #' @return A matrix with labeled Nucleotide

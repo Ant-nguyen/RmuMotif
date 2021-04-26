@@ -1,4 +1,7 @@
+#' consensus
+#'
 #' Takes the most common nucleotide in each position of a group motifs
+#'
 #' @param Motifs A vector of character string of the DNA Motifs.
 #' @return A vector of the most common nucleotide in each position
 #' @examples consensus(sampleMotifs)
