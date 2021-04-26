@@ -9,7 +9,7 @@
 #' @export
 frequencyMap <- function(k,txt){ # k is an integer value representing a length of sequence (kmer)
   freq <- list()
-  n <- nchar(txt)-2
+  n <- nchar(txt)-k+1
   for(i in 1:n){
     x <- (k+i-1)
     pattern <- substr(txt,i,x)
