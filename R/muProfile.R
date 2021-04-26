@@ -11,11 +11,12 @@
 muProfile <- function(Motifs,pseudo=FALSE){
   if (pseudo== FALSE){
     counts <- muCount(Motifs)
+    n <- length(Motifs)
   }
   else{
     counts <- muCount(Motifs,pseudo=TRUE)
+    n <- length(Motifs)+4
   }
-  n <- length(Motifs)
   profile <- (counts/n)
   class(profile) <- "profile" #classification to allow for specific plot method
   return(profile)
