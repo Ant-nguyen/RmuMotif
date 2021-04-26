@@ -1,7 +1,7 @@
 Package: MuMotif
 Type: Package
 Title: Useful functions to help find motifs in DNA sequences. 
-Version: 0.1.0
+Version: 0.1.2
 Author: person("Anthony","Nguyen",email ="AnthonyNguyen@usf.edu",role = c("aut","cre"))
 Maintainer: Anthony Nguyen <AnthonyNguyen@usf.edu>
 Description: Series of functions that are useful in discovering,analyzing and visualizing motifs from DNA.
