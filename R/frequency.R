@@ -15,26 +15,3 @@ frequencyMap <- function(k,txt){ # k is an integer value representing a length o
   class(freq) <-"frequencyMap"  #classify end result to frequencyMap, allowing specific plotting
   return(freq)
 }
-
-
-pr<- function(txt,profile){
-  p <- 1
-  txtstr <- strsplit(txt,"")[[1]]
-  for(i in 1:length(txtstr)){
-    p <- profile[txtstr[i],i]*p
-  }
-  return(as.numeric(p))
-}
-
-profileMostProbable <- function(txt,k,profile){
-  num <- nchar(txt)
-  bestscore <- -1
-  for(i in 1:(num-k+1)){
-    x <- substr(txt,i,(i+k-1))
-    if(pr(x,profile) > bestscore){
-      bestscore <- pr(x,profile)
-      mostprob <- x
-    }
-  }
-  return(mostprob)
-}

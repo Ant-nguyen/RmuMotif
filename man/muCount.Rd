@@ -17,3 +17,6 @@ A matrix with labeled Nucleotide
 \description{
 A function that takes a series of motifs and return a count of each AGTC at each position.
 }
+\examples{
+muCount(sampleMotifs,pseudo=TRUE)
+}

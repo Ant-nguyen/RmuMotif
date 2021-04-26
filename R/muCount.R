@@ -2,6 +2,7 @@
 #' @param Motifs vector of motifs of interest
 #' @param pseudo TRUE or FALSE statement, if pseudo is true than will implement pseudo counts.
 #' @return A matrix with labeled Nucleotide
+#' @examples muCount(sampleMotifs,pseudo=TRUE)
 #' @export
 muCount <- function(Motifs,pseudo=FALSE){
   k <-nchar(Motifs[1])

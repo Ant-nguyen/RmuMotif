@@ -15,3 +15,6 @@ A vector of the most common nucleotide in each position
 \description{
 Takes the most common nucleotide in each position of a group motifs
 }
+\examples{
+consensus(sampleMotifs)
+}
