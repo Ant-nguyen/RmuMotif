@@ -2,7 +2,7 @@
 % Please edit documentation in R/Plot.frequencyMap.R
 \name{plot.frequencyMap}
 \alias{plot.frequencyMap}
-\title{Method for generic plot function that visualize different kmer frequency}
+\title{plot.frequencyMap}
 \usage{
 \method{plot}{frequencyMap}(frequencyMap)
 }

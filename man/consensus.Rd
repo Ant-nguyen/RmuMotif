@@ -2,7 +2,7 @@
 % Please edit documentation in R/consensus.R
 \name{consensus}
 \alias{consensus}
-\title{Takes the most common nucleotide in each position of a group motifs}
+\title{consensus}
 \usage{
 consensus(Motifs)
 }

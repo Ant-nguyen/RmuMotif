@@ -2,7 +2,7 @@
 % Please edit documentation in R/muScore.R
 \name{muScore}
 \alias{muScore}
-\title{This function gives a score of how the consensus nucleotide compares to the other in a motif.}
+\title{muScore}
 \usage{
 muScore(Motifs)
 }
@@ -15,4 +15,7 @@ The lower the score the stronger the consensus compares to Motifs
 }
 \description{
 This function gives a score of how the consensus nucleotide compares to the other in a motif.
+}
+\examples{
+muScore(sampleMotifs)
 }

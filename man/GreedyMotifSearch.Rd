@@ -2,8 +2,7 @@
 % Please edit documentation in R/GreedyMotifSearch.R
 \name{GreedyMotifSearch}
 \alias{GreedyMotifSearch}
-\title{Given a series of DNA sequences this function will return the most probably motif in each sequence taking into account
-the other DNA sequences.This uses a 'Greedy" method that is very computationally simple allowing for quick fast results.}
+\title{GreedyMotifSearch}
 \usage{
 GreedyMotifSearch(DNAseqs, k, t, pseudo = FALSE)
 }
@@ -23,4 +22,7 @@ A vector of best scoring Motifs
 \description{
 Given a series of DNA sequences this function will return the most probably motif in each sequence taking into account
 the other DNA sequences.This uses a 'Greedy" method that is very computationally simple allowing for quick fast results.
+}
+\examples{
+GreedyMotifSearch(sampleDNAseq,3,4)
 }

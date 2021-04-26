@@ -2,7 +2,7 @@
 % Please edit documentation in R/pr.R
 \name{pr}
 \alias{pr}
-\title{From a profile return the probability a DNA sequence fits from the profile}
+\title{pr}
 \usage{
 pr(txt, profile)
 }

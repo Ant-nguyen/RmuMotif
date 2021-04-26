@@ -2,7 +2,7 @@
 % Please edit documentation in R/muCount.R
 \name{muCount}
 \alias{muCount}
-\title{A function that takes a series of motifs and return a count of each AGTC at each position.}
+\title{muCount}
 \usage{
 muCount(Motifs, pseudo = FALSE)
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/plotProfile.R
 \name{plot.profile}
 \alias{plot.profile}
-\title{Method for generating sequence logo graphical representation for profile class objects.}
+\title{plot.profile}
 \usage{
 \method{plot}{profile}(profile, prob = TRUE)
 }

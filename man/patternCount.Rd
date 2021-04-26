@@ -2,7 +2,7 @@
 % Please edit documentation in R/patternCount.R
 \name{patternCount}
 \alias{patternCount}
-\title{Given a pattern will count how many times the pattern occurs in a line of text.}
+\title{patternCount}
 \usage{
 patternCount(patt, txt)
 }

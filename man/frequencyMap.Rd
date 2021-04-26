@@ -2,7 +2,7 @@
 % Please edit documentation in R/frequency.R
 \name{frequencyMap}
 \alias{frequencyMap}
-\title{Extract frequency of specific kmers (snippets of specific length) from a larger sequence.}
+\title{FrequencyMap}
 \usage{
 frequencyMap(k, txt)
 }

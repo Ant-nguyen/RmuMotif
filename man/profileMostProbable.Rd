@@ -2,7 +2,7 @@
 % Please edit documentation in R/profileMostProbable.R
 \name{profileMostProbable}
 \alias{profileMostProbable}
-\title{With a profile, calculate most probable kmer in a specific sequence(txt)}
+\title{profileMostProbable}
 \usage{
 profileMostProbable(txt, k, profile)
 }

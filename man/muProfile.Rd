@@ -2,7 +2,7 @@
 % Please edit documentation in R/muProfile.R
 \name{muProfile}
 \alias{muProfile}
-\title{Generates a probability profile based on a series of sequences 'Motifs'}
+\title{muProfile}
 \usage{
 muProfile(Motifs, pseudo = FALSE)
 }
@@ -17,4 +17,7 @@ A profile class object with
 }
 \description{
 Generates a probability profile based on a series of sequences 'Motifs'
+}
+\examples{
+muProfile(sampleMotif)
 }

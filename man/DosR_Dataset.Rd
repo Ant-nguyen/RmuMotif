@@ -3,7 +3,7 @@
 \docType{data}
 \name{DosR_Dataset}
 \alias{DosR_Dataset}
-\title{Dormacy Survival regulartors (DosR) upstream genes}
+\title{Dormancy Survival regulators (DosR) upstream genes}
 \format{
 A vector of character strings of the 10 genes
 }
